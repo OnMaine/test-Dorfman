@@ -1,0 +1,28 @@
+$color-primary: #6EEFA9;
+$color-secondary: #FFFFFFCC;
+$color-default: #FFFFFF99;
+$color-danger: #FF5A5A;
+$color-background: #0D0C1D;
+$color-card-background: #1c2433;
+$color-payment-active: #2C64F1;
+$color-step-active: #FFB287;
+
+
+$default-radius: 4px;
+
+$color-divider: #FFFFFF1A;
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-secondary: #{$color-secondary};
+  --color-default: #{$color-default};
+  --color-danger: #{$color-danger};
+  --color-background: #{$color-background};
+  --color-card-background: #{$color-card-background};
+  --color-payment-active: #{$color-payment-active};
+  --color-step-active: #{$color-step-active};
+
+  --default-radius: #{$default-radius};
+
+  --color-divider: #{$color-divider};
+}

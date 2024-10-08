@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--color-default);
+}
+
+html,
+body,
+#__nuxt {
+    height: 100%;
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.3;
+}
+
+button {
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+svg {
+    stroke: currentColor;
+}
