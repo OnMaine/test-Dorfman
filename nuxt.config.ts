@@ -34,5 +34,7 @@ export default defineNuxtConfig({
         { rel: 'preload', as: 'font', crossorigin: 'anonymous', href: 'https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2' }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2024-10-08'
 })
