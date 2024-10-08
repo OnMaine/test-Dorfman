@@ -1,8 +1,11 @@
-import { readFileSync } from 'fs'
-import { resolve } from 'path'
+const asd = {
+  payments: {
+    US: ['Visa', 'PayPal', 'Payoneer', 'Bitcoin', 'TRC-20', 'ERC-20'],
+    PT: ['Visa', 'Bitcoin', 'TRC-20', 'ERC-20'],
+    ES: ['Visa', 'Bitcoin', 'TRC-20']
+  }
+}
 
 export default defineEventHandler(() => {
-  const filePath = resolve('assets/payments.json')
-  const fileContents = readFileSync(filePath, 'utf-8')
-  return JSON.parse(fileContents)
+  return asd
 })

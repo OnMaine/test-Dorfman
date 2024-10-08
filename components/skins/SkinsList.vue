@@ -18,8 +18,6 @@
 <script setup lang="ts">
 const { data } = await useFetch<ISkin[]>('/api/skins')
 
-console.log(data.value)
-
 const { updateSelectedSkins } = usePaymentsStore()
 
 const sortingOrder = ref('asc')
